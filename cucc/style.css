@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    background-image: url("hatter.jpg");
+    background-color: #163b4d;
+    font-family: "Antonio", sans-serif;
+}
+
+
+.keret {
+display: grid;
+grid-template-columns: 1fr;
+}
+
+
+.nav-menu  {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+ .baloldal {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu> .baloldal > div{
+   margin-right: 30px;
+   font-size: 2.5em;
+   
+}
+
+.links{
+    height: 50px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.links a{
+    color: #1f9eda;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.links:hover{
+    border-bottom: 2px solid rgb(141, 141, 141);
+}
+.links a:hover{
+    color: rgb(146, 146, 146);
+}
+.nev{
+    font-size: 3em;
+    color: #1f9eda;
+    margin-top: 250px;
+    margin-left: 405px;
+    font-size: 600%;
+} 
+.aktiv-link{
+    border-bottom: 1px solid #1f9eda;
+}
+.aktiv-link a{
+    color:#1f9eda !important;
+}   
+/*rolam*/
+.ket-oszlop-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profilkep img{
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.rolam-content{
+    padding: 30px;
+}
+.rolam-content h1 {
+    color: rgb(99, 202, 168);
+}
+.rolam-content p{
+    color: beige;
+    width: 600px;
+}
+.rolam-content h2{
+    margin-top: 453px;
+}/*munkáim*/
+.munka-ketoszlop{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+}
+.cfd-oszlop{
+    padding: 20px;
+}
+.cfd-oszlop h1{
+    color: rgb(99, 202, 168);
+    margin-left: 100px;
+}
+.cfd-oszlop p{
+    color: beige;
+    margin-left: 150px;
+}
+.rajz-oszlop{
+    padding: 20px;
+}
+.rajz-oszlop h1{
+    color: rgb(99, 202, 168);
+    margin-left: 350px;
+}
+.rajz-oszlop p{
+    color: beige;
+    margin-left: 450px;
+}
+/*weboldalterv*/
+.terv{
+    color:rgb(99, 202, 168) ;
+    margin-left: 150px;
+}
+.terv h1{
+    color: rgb(99, 202, 168);
+    font-size: 200%;
+    margin-left: 40px;
+}
+.terv h2{
+    color: rgb(99, 202, 168);
+    font-size: 130%;
+}
+.terv h3{
+    color: rgb(99, 202, 168);
+    font-size: 130%;
+}
+.terv h4{
+    color: rgb(99, 202, 168);
+    font-size: 130%;
+}
+.terv p{
+    color: beige;
+    margin-left: 100px;
+    width: 650px;
+    
+}
